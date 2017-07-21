@@ -1,0 +1,277 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&subset=latin-ext');
+@import url('https://fonts.googleapis.com/css?family=Merriweather:700i');
+
+* {
+	box-sizing: border-box;
+	font-family: 'Open Sans', sans-serif;
+}
+
+h1, p {
+	margin: 0;
+}
+body {
+	margin: 0;
+}
+.jumbotron {
+	width: 100%;
+	height: 100vh;
+	background: url("https://images.pexels.com/photos/493392/pexels-photo-493392.jpeg?w=940&h=650&auto=compress&cs=tinysrgb") 0/cover;
+	overflow: hidden;
+}
+.container {
+	max-width: 1230px;
+	margin: 0 auto;
+}
+.jumbotron {
+	position: relative;
+}
+.logo {
+	position: absolute;
+	top: 55px;
+	width: 200px;
+	padding-left: 30px;
+}
+
+.circle {
+  display: inline-block;
+}
+.circle-1 {
+  width: 44px;
+  height: 44px;
+  border: 3px solid #fff;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.circle-2 {
+  width: 16px;
+  height: 16px;
+  border: 3px solid #fff;
+  border-radius: 50%;
+}
+.take {
+  color: #fff;
+  display: inline-block;
+  font-size: 21px;
+  font-family: Merriweather;
+  margin-left: 5px;
+}
+.logo p {
+	font-size: 21px;
+}
+.jumbotron .container {
+	margin-top: 48vh;
+}
+.jumbotron h1 {
+	color: #fff;
+	font-weight: 300;
+	font-size: 60px;
+	transform: translateY(-23px);
+}
+.jumbotron p {
+	color: #fff;
+	font-size: 13px;
+	line-height: 25px;
+}
+.start {
+	height: 540px;
+	margin-bottom: 85px;
+}
+.start .row-1 {
+	height: 175px;
+}
+.start .row-2, .start .row-3 {
+	margin-bottom: 35px;
+}
+.start h2 {
+	font-size: 27px;
+	font-weight: 300;
+	margin-top: 115px;
+}
+.start [class*='col-'] {
+	height: 100%;
+}
+.start .phone {
+	padding-right: 0; /* zeruje padding-right ustawiony dla kolumn */
+}
+.start img {
+	width: 100%;
+	height: 740px;
+	transform: translateY(-500px);
+}
+.start p {
+	font-size: 14px;
+	line-height: 22px;
+}
+.start .row-4 div.col-l-6:last-of-type {
+	margin-top: -55px;
+}
+
+
+.gallery [class*='box-'], .gallery .layer {
+	height: 280px;
+	padding-left: 30px;
+	padding-top: 30px;
+}
+.gallery .box-3,
+.gallery .box-5,
+.gallery .box-7 {
+	position: relative;
+}
+.gallery .layer {
+	position: absolute;
+}
+.gallery .box-3, .gallery .box-5, .gallery .box-7 {
+	padding: 0;
+}
+.gallery .box-1 {
+	background-color: #f5989d;
+}
+.gallery .box-2 {
+	background-color: #615f7d;
+}
+.gallery .box-4 {
+	background-color: #bd8cbf;
+}
+.gallery .box-6 {
+	background-color: #82ca9c;
+}
+.gallery .box-3 img {
+	width: 120%;
+	height: 100%;
+}
+.gallery .box-5 img, .gallery .box-7 img {
+	width: 100%;
+	height: 100%;
+}
+.gallery h3 {
+	font-weight: 300;
+	font-size: 27px;
+	color: #fff;
+}
+.gallery p, .gallery span {
+	color: #fff;
+}
+.gallery .middle-text {
+	height: 85px;
+	margin-top: 20px;
+	margin-bottom: 30px;
+	font-size: 13px;
+}
+.gallery .box-5 .middle-text {
+	width: 70%;
+}
+.gallery .bottom-text {
+	display: inline-block;
+	padding-right: 15px;
+}
+.gallery .heart {
+	padding-right: 25px;
+	text-align: right;
+	font-size: 18px;
+}
+.details {
+	padding: 80px 0px 140px;
+}
+.details .row:first-of-type {
+	padding-bottom: 50px;
+}
+.details h3 {
+	font-size: 35px;
+	color: #586778;
+}
+.details h6 {
+	font-weight: 700;
+	font-size: 13px;
+	padding-bottom: 20px;
+	color: #606d83;
+}
+.details p {
+	line-height: 23px;
+	color: #b8c4d5;
+}
+
+.jumbotron-2 {
+	width: 100%;
+	height: 100vh;
+	background: url("https://images.pexels.com/photos/498897/pexels-photo-498897.jpeg?w=940&h=650&auto=compress&cs=tinysrgb") 0/cover;
+	overflow: hidden;
+}
+.jumbotron-2 .container {
+	margin-top: 45vh;
+	color: #fff;
+}
+.jumbotron-2 .row:first-of-type {
+	margin-bottom: 30px;
+}
+.jumbotron-2 h2 {
+	font-size: 60px;
+	font-weight: 300;
+	margin: 0;
+}
+.jumbotron-2 p {
+	font-size: 13px;
+	line-height: 22px;
+	margin-bottom: 20px;
+}
+.jumbotron-2 h5 {
+	font-weight: 700;
+	display: inline-block;
+	padding-right: 15px;
+}
+
+.reasons {
+	height: 80vh;
+	background: #82ca9c;
+	color: #fff;
+}
+.reasons .container {
+	padding-top: 15vh;
+}
+.reasons h2 {
+	font-size: 35px;
+	font-weight: 300;
+	padding-bottom: 50px;
+}
+.reasons h6 {
+	font-size: 13px;
+	font-weight: 700;
+	padding-bottom: 20px;
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+	
+}
+@media (min-width: 768px) and (max-width: 991px) {
+	.start p {
+		font-size: 12px;
+		line-height: 20px;
+    }
+}
+@media (max-width: 767px) {
+	.jumbotron div > p {
+		font-size: 0.7em;
+	}
+	.jumbotron h1 {
+		font-size: 2.7em;
+	}
+	.start h2 {
+		font-size: 22px;
+	} 
+	.start p {
+		font-size: 11px;
+		line-height: 18px;
+    }
+    .gallery .box-3 img {  /* po zmianie oobrazka sprawdzić ten kod!!!!!!!!!! */
+		width: 100%;
+		height: 100%;
+	}
+}
+@media (max-width: 480px) {
+	.jumbotron h1 {
+		font-size: 2.5em;
+	}
+	.start h2 {
+		font-size: 18px;
+	}
+}
