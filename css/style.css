@@ -337,6 +337,16 @@ footer ul li {
     .details h6 {
         padding: 10px 0 0 0;
     }
+    footer {
+        height: 500px;
+    }
+    .bottom {
+        margin-top: 50px;
+    }
+    footer .get,
+    footer .stay {
+        margin-top: 50px;
+    }
 }
 @media (min-width: 768px) and (max-width: 991px) {
     .start p {
@@ -344,7 +354,10 @@ footer ul li {
         line-height: 20px;
     }
     .reasons {
-        height: 110vh;
+        height: 100vh;
+    }
+    .solo {
+        height: 1000px;
     }
 }
 @media (max-width: 767px) {
