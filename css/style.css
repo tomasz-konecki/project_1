@@ -78,6 +78,7 @@ body {
 .start {
     height: 540px;
     margin-bottom: 85px;
+    background-color: lightblue;
 }
 .start .row-1 {
     height: 175px;
@@ -331,6 +332,10 @@ footer ul li {
 /* -------------------------------------------------------  */
 
 @media (max-width: 1199px) {
+    .start {
+        height: 600px;
+        margin-bottom: 50px;
+    }
     .reasons {
         height: 90vh;
     }
@@ -354,13 +359,25 @@ footer ul li {
         line-height: 20px;
     }
     .reasons {
-        height: 100vh;
+        height: 80vh;
     }
     .solo {
-        height: 1000px;
+        height: 820px;
+    }
+    .solo .legacy {
+        margin-top: 0;
+        padding-bottom: 0;
+    }
+    .reasons .container {
+        padding-top: 50px;
     }
 }
 @media (max-width: 767px) {
+    .start {
+        height: 100%;
+        margin-bottom: 0;
+        padding-bottom: 50px;
+    }
     .jumbotron div > p {
         font-size: 0.7em;
     }
@@ -368,8 +385,8 @@ footer ul li {
         font-size: 2.7em;
     }
     .start h2 {
-        font-size: 22px;
-    } 
+        margin-top: 60px;
+    }
     .start p {
         font-size: 11px;
         line-height: 18px;
@@ -379,21 +396,33 @@ footer ul li {
         height: 100%;
     }
     .reasons {
-        height: 110vh;
+        height: 80vh;
     }
+    .solo {
+        height: 820px;
+    }
+    .solo .legacy {
+        margin-top: 0;
+        padding-bottom: 0;
+    }
+    .reasons .container {
+        padding-top: 50px;
+    }
+    footer {
+        height: 650px;
+    }
+
+
 }
-@media (max-width: 570px) {
+@media (min-width: 481px) and (max-width: 570px) {
     .reasons {
         height: 110vh;
     }
 }
 
-@media (max-width: 480px) {
+@media (min-width: 321px) and (max-width: 480px) {
     .jumbotron h1 {
         font-size: 2.5em;
-    }
-    .start h2 {
-        font-size: 18px;
     }
     .jumbotron-2 h2 {
         font-size: 40px;
@@ -404,5 +433,24 @@ footer ul li {
     .solo .legacy {
         margin-top: 20px;
         padding-bottom: 0;
+    }
+    footer {
+        height: 800px;
+    }
+    footer .top {
+        padding-top: 100px;
+    }
+}
+
+@media (max-width: 320px) {
+    .jumbotron-2 .container {
+        margin-top: 20vh;
+        color: #fff;
+    }
+    footer {
+        height: 1000px;
+    }
+    footer .top {
+        padding-top: 200px;
     }
 }
