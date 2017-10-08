@@ -78,7 +78,6 @@ body {
 .start {
     height: 540px;
     margin-bottom: 85px;
-    background-color: lightblue;
 }
 .start .row-1 {
     height: 175px;
@@ -411,25 +410,27 @@ footer ul li {
     footer {
         height: 650px;
     }
-
-
 }
-@media (min-width: 481px) and (max-width: 570px) {
+
+@media (max-width: 480px) {
+    .jumbotron h1 {
+        font-size: 2.5em;
+        transform: translateY(-70px);
+    }
+    .jumbotron p {
+        transform: translateY(-50px);
+    }
     .reasons {
-        height: 110vh;
+        height: 90vh;
     }
 }
 
 @media (min-width: 321px) and (max-width: 480px) {
-    .jumbotron h1 {
-        font-size: 2.5em;
-    }
+    
     .jumbotron-2 h2 {
         font-size: 40px;
     }
-    .reasons {
-        height: 115vh;
-    }
+    
     .solo .legacy {
         margin-top: 20px;
         padding-bottom: 0;
@@ -446,6 +447,9 @@ footer ul li {
     .jumbotron-2 .container {
         margin-top: 20vh;
         color: #fff;
+    }
+    .jumbotron-2 p {
+        padding-top: 50px;
     }
     footer {
         height: 1000px;
