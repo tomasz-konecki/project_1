@@ -5,14 +5,12 @@
     box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
 }
-
 h1, p {
     margin: 0;
 }
 body {
     margin: 0;
 }
-
 .jumbotron {
     width: 100%;
     height: 100vh;
@@ -32,7 +30,6 @@ body {
     width: 200px;
     padding-left: 30px;
 }
-
 .circle {
   display: inline-block;
 }
@@ -108,7 +105,6 @@ body {
 .start .row-4 div.col-l-6:last-of-type {
     margin-top: -55px;
 }
-
 .gallery [class*='box-'], .gallery .box-text {
     height: 280px;
     padding-left: 30px;
@@ -122,7 +118,6 @@ body {
 .gallery .box-text {
     position: absolute;
 }
-
 .gallery .box-3, .gallery .box-5, .gallery .box-7 {
     padding: 0;
 }
@@ -192,7 +187,6 @@ body {
     line-height: 23px;
     color: #b8c4d5;
 }
-
 .jumbotron-2 {
     width: 100%;
     height: 100vh;
@@ -221,7 +215,6 @@ body {
     display: inline-block;
     padding-right: 15px;
 }
-
 .reasons {
     height: 80vh;
     background: #82ca9c;
@@ -242,7 +235,6 @@ body {
     padding: 20px 0;
     .border: 1px solid;
 }
-
 /* -------------------------------------------------------  */
 .solo {
     height: 630px;
@@ -266,7 +258,6 @@ body {
 .solo .popular {
     background: #fff;
 }
-
 .solo .popular h6 {
     width: 110px;
     background: #bd8cbf;
@@ -274,7 +265,6 @@ body {
 .solo p {
     padding-bottom: 30px;
 }
-
 .solo .btn {
     background: #82ca9c;
     color: #fff;
@@ -328,8 +318,8 @@ footer ul li {
     padding: 3px 0;
     font-size: 13px;
 }
-/* -------------------------------------------------------  */
 
+/* -------------------------------------------------------  */
 @media (max-width: 1199px) {
     .start {
         height: 600px;
@@ -352,6 +342,7 @@ footer ul li {
         margin-top: 50px;
     }
 }
+
 @media (min-width: 768px) and (max-width: 991px) {
     .start p {
         font-size: 12px;
@@ -371,6 +362,7 @@ footer ul li {
         padding-top: 50px;
     }
 }
+
 @media (max-width: 767px) {
     .start {
         height: 100%;
@@ -390,7 +382,7 @@ footer ul li {
         font-size: 11px;
         line-height: 18px;
     }
-    .gallery .box-3 img {  /* po zmianie oobrazka sprawdzić ten kod!!!!!!!!!! */
+    .gallery .box-3 img {
         width: 100%;
         height: 100%;
     }
@@ -426,7 +418,6 @@ footer ul li {
 }
 
 @media (min-width: 321px) and (max-width: 480px) {
-    
     .jumbotron-2 h2 {
         font-size: 40px;
     }
